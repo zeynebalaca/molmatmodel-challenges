@@ -1,0 +1,8 @@
+&PROJWFC
+ prefix = 'graphene',
+ outdir = './tmp',
+ filpdos = 'graphene_pdos',
+ Emin = -20.0,
+ Emax = 20.0,
+ DeltaE = 0.02,
+/

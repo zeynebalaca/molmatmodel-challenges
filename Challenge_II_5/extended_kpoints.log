@@ -1,0 +1,18 @@
+
+Running 18x18x18 k-points...
+Energy: -4.63519831 Ry
+Difference: 5.17546960705731 meV/atom
+Success: True
+
+Running 22x22x22 k-points...
+Energy: -4.63545761 Ry
+Difference: 3.527956226788811 meV/atom
+Success: True
+
+Running 26x26x26 k-points...
+Energy: -4.63543846 Ry
+Difference: 0.26054902330489704 meV/atom
+Success: True
+
+Extended Al k-point scan finished.
+Results saved to extended_kpoints.csv

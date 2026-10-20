@@ -1,0 +1,58 @@
+
+===== cutoff_40Ry =====
+Exit code: 0
+Energy: -4.63586655 Ry
+Success: True
+
+===== cutoff_55Ry =====
+Exit code: 0
+Energy: -4.63588452 Ry
+Success: True
+
+===== cutoff_70Ry =====
+Exit code: 0
+Energy: -4.63589274 Ry
+Success: True
+
+===== kpoints_6 =====
+Exit code: 0
+Energy: -4.6401888 Ry
+Success: True
+
+===== kpoints_10 =====
+Exit code: 0
+Energy: -4.63404066 Ry
+Success: True
+
+===== kpoints_14 =====
+Exit code: 0
+Energy: -4.63481792 Ry
+Success: True
+
+===== cell_relax =====
+Exit code: 0
+Energy: -4.63482356 Ry
+Success: True
+
+Final optimized geometry:
+new unit-cell volume =    110.66666 a.u.^3 (    16.39911 Ang^3 )
+     density =      2.73209 g/cm^3
+
+CELL_PARAMETERS (angstrom)
+  -0.000000000   2.016493098   2.016493098
+   2.016493098  -0.000000000   2.016493098
+   2.016493098   2.016493098  -0.000000000
+
+ATOMIC_POSITIONS (angstrom)
+Al               0.0000000000        0.0000000000        0.0000000000
+
+========== SUMMARY ==========
+cutoff_40Ry      E=     -4.63586655 Ry success=True
+cutoff_55Ry      E=     -4.63588452 Ry success=True
+cutoff_70Ry      E=     -4.63589274 Ry success=True
+kpoints_6        E=      -4.6401888 Ry success=True
+kpoints_10       E=     -4.63404066 Ry success=True
+kpoints_14       E=     -4.63481792 Ry success=True
+cell_relax       E=     -4.63482356 Ry success=True
+
+Results saved to results.csv

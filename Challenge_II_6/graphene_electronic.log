@@ -1,0 +1,37 @@
+
+===== RUNNING scf =====
+Exit code: 0
+Completed: True
+
+===== RUNNING nscf =====
+Exit code: 0
+Completed: True
+
+===== RUNNING dos =====
+Exit code: 0
+Completed: True
+
+===== RUNNING projwfc =====
+Exit code: 0
+Completed: True
+
+===== RUNNING charge =====
+Exit code: 0
+Completed: True
+
+========== ELECTRONIC STRUCTURE RESULTS ==========
+Fermi energy: -4.240900 eV
+Spilling parameter: 0.0109
+
+Generated files:
+  graphene_tdos.dat: OK
+  graphene_pdos.pdos_tot: OK
+  charge_density.cube: OK
+
+Carbon orbital projection files:
+  graphene_pdos.pdos_atm#1(C)_wfc#1(s)
+  graphene_pdos.pdos_atm#1(C)_wfc#2(p)
+  graphene_pdos.pdos_atm#2(C)_wfc#1(s)
+  graphene_pdos.pdos_atm#2(C)_wfc#2(p)
+
+Saved calculation directory: /home/zeyneb/challenges/Challenge_II_6/electronic

@@ -1,0 +1,4 @@
+degauss_Ry,dos_file,status
+0.005,dos_degauss_0.005.dat,success
+0.01,dos_degauss_0.010.dat,success
+0.02,dos_degauss_0.020.dat,success

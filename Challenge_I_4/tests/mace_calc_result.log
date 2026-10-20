@@ -1,0 +1,42 @@
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+
+============================================================
+Molecule: H2O
+Model: macempa0mediummodel
+Device: cpu
+============================================================
+
+WARNING:root:'model_path' argument is deprecated, please use 'model_paths' in the future.
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+WARNING:root:No dtype selected, switching to float64 to match model dtype.
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/autograd/graph.py:1072: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+✓ Calculation completed in 0.272 seconds
+
+Energy:
+  -13.78592681 eV
+  -1330.1351 kJ/mol
+  -317.9104 kcal/mol
+
+Forces (eV/Å):
+  O0: [0.000000, -0.000000, 0.103395]
+  H1: [0.000000, 0.070193, -0.051697]
+  H2: [0.000000, -0.070193, -0.051697]
+
+Force magnitudes (eV/Å):
+  O0: 0.103395
+  H1: 0.087176
+  H2: 0.087176

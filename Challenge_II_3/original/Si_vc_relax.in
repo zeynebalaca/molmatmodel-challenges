@@ -1,0 +1,44 @@
+&CONTROL
+ calculation = 'vc-relax',
+ prefix = 'si_original',
+ pseudo_dir = './',
+ outdir = './tmp',
+ etot_conv_thr = 1.0d-5,
+ forc_conv_thr = 1.0d-3,
+/
+&SYSTEM
+ ibrav = 0,
+ nat = 2,
+ ntyp = 1,
+ ecutwfc = 70,
+ ecutrho = 560,
+ occupations = 'smearing',
+ smearing = 'gauss',
+ degauss = 0.01,
+/
+&ELECTRONS
+ conv_thr = 1.0d-9,
+ mixing_beta = 0.5,
+/
+&IONS
+ ion_dynamics = 'bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press = 0.0,
+ press_conv_thr = 0.5,
+/
+ATOMIC_SPECIES
+ Si 28.085 Si.upf
+
+CELL_PARAMETERS angstrom
+ 0.000000 2.714900 2.714900
+ 2.714900 0.000000 2.714900
+ 2.714900 2.714900 0.000000
+
+ATOMIC_POSITIONS angstrom
+ Si 1.357450 4.072350 4.072350
+ Si 0.000000 0.000000 0.000000
+
+K_POINTS automatic
+8 8 8 0 0 0

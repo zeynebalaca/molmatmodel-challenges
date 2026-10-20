@@ -1,0 +1,9 @@
+test,ecutwfc_Ry,k_grid,energy_Ry,success,exit_code
+cutoff,40,12x12x1,-24.0059021,True,0
+cutoff,55,12x12x1,-24.08273339,True,0
+cutoff,70,12x12x1,-24.09391003,True,0
+kpoints,70,6x6x1,-24.09066159,True,0
+kpoints,70,12x12x1,-24.09391003,True,0
+kpoints,70,18x18x1,-24.0942134,True,0
+kpoints,70,24x24x1,-24.09427867,True,0
+kpoints,70,20x20x1,-24.09432343,True,0

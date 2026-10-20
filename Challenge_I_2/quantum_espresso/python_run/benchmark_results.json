@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-10-20T11:31:06.678524",
+    "nproc": 2,
+    "omp_threads": 1,
+    "total_elapsed": 25.66993236541748,
+    "status": "completed",
+    "cpu_time": 16.65,
+    "wall_time": 17.22,
+    "efficiency": 0.9668989547038327,
+    "overhead": 8.449932365417482,
+    "kpoints": 50,
+    "bands": 34,
+    "actual_mpi": 2,
+    "actual_omp": 1
+  },
+  {
+    "timestamp": "2026-10-20T11:33:17.845402",
+    "nproc": 4,
+    "omp_threads": 1,
+    "total_elapsed": 19.3748676776886,
+    "status": "completed",
+    "cpu_time": 10.09,
+    "wall_time": 10.82,
+    "efficiency": 0.932532347504621,
+    "overhead": 8.554867677688598,
+    "kpoints": 50,
+    "bands": 34,
+    "actual_mpi": 4,
+    "actual_omp": 1
+  },
+  {
+    "timestamp": "2026-10-20T11:35:00.527808",
+    "nproc": 8,
+    "omp_threads": 1,
+    "total_elapsed": 13.275302410125732,
+    "status": "completed",
+    "cpu_time": 6.98,
+    "wall_time": 7.24,
+    "efficiency": 0.9640883977900553,
+    "overhead": 6.035302410125732,
+    "kpoints": 50,
+    "bands": 34,
+    "actual_mpi": 8,
+    "actual_omp": 1
+  }
+]

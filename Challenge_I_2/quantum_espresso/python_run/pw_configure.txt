@@ -1,0 +1,3 @@
+/home/zeyneb/miniforge3/envs/molmatmodel/bin/pw.x
+MPI 8
+OMP 1

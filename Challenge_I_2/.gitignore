@@ -1,0 +1,12 @@
+# Quantum ESPRESSO restart and wavefunction data
+**/pwscf.save/
+**/*.wfc*
+**/tmp/
+
+# NWChem temporary binary files
+**/*.db
+**/*.movecs
+
+# Python cache
+**/__pycache__/
+**/*.pyc

@@ -1,0 +1,40 @@
+Running course_Si | cutoff | ecut=30 Ry | k=4x4x4
+  Energy: -16.91076906 Ry | success=True
+Running course_Si | cutoff | ecut=50 Ry | k=4x4x4
+  Energy: -16.9110111 Ry | success=True
+Running course_Si | cutoff | ecut=70 Ry | k=4x4x4
+  Energy: -16.9110244 Ry | success=True
+Running course_Si | kpoints | ecut=70 Ry | k=2x2x2
+  Energy: -16.73677386 Ry | success=True
+Running course_Si | kpoints | ecut=70 Ry | k=4x4x4
+  Energy: -16.9110244 Ry | success=True
+Running course_Si | kpoints | ecut=70 Ry | k=6x6x6
+  Energy: -16.92311814 Ry | success=True
+Running alternative_PBE_PAW | cutoff | ecut=30 Ry | k=4x4x4
+  Energy: -93.43892062 Ry | success=True
+Running alternative_PBE_PAW | cutoff | ecut=50 Ry | k=4x4x4
+  Energy: -93.43971276 Ry | success=True
+Running alternative_PBE_PAW | cutoff | ecut=70 Ry | k=4x4x4
+  Energy: -93.4397398 Ry | success=True
+Running alternative_PBE_PAW | kpoints | ecut=70 Ry | k=2x2x2
+  Energy: -93.26568279 Ry | success=True
+Running alternative_PBE_PAW | kpoints | ecut=70 Ry | k=4x4x4
+  Energy: -93.4397398 Ry | success=True
+Running alternative_PBE_PAW | kpoints | ecut=70 Ry | k=6x6x6
+  Energy: -93.45180863 Ry | success=True
+
+========== FINAL RESULTS ==========
+course_Si              cutoff   ecut= 30 k= 4 E=   -16.91076906 Ry success=True
+course_Si              cutoff   ecut= 50 k= 4 E=    -16.9110111 Ry success=True
+course_Si              cutoff   ecut= 70 k= 4 E=    -16.9110244 Ry success=True
+course_Si              kpoints  ecut= 70 k= 2 E=   -16.73677386 Ry success=True
+course_Si              kpoints  ecut= 70 k= 4 E=    -16.9110244 Ry success=True
+course_Si              kpoints  ecut= 70 k= 6 E=   -16.92311814 Ry success=True
+alternative_PBE_PAW    cutoff   ecut= 30 k= 4 E=   -93.43892062 Ry success=True
+alternative_PBE_PAW    cutoff   ecut= 50 k= 4 E=   -93.43971276 Ry success=True
+alternative_PBE_PAW    cutoff   ecut= 70 k= 4 E=    -93.4397398 Ry success=True
+alternative_PBE_PAW    kpoints  ecut= 70 k= 2 E=   -93.26568279 Ry success=True
+alternative_PBE_PAW    kpoints  ecut= 70 k= 4 E=    -93.4397398 Ry success=True
+alternative_PBE_PAW    kpoints  ecut= 70 k= 6 E=   -93.45180863 Ry success=True
+
+Saved results.csv and individual QE inputs/outputs.

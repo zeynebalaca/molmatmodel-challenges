@@ -1,0 +1,36 @@
+
+Running cutoff: ecut=40 Ry, k=12x12x1
+Energy: -24.0059021 Ry | success=True
+
+Running cutoff: ecut=55 Ry, k=12x12x1
+Energy: -24.08273339 Ry | success=True
+
+Running cutoff: ecut=70 Ry, k=12x12x1
+Energy: -24.09391003 Ry | success=True
+
+Running kpoints: ecut=70 Ry, k=6x6x1
+Energy: -24.09066159 Ry | success=True
+
+Running kpoints: ecut=70 Ry, k=12x12x1
+Energy: -24.09391003 Ry | success=True
+
+Running kpoints: ecut=70 Ry, k=18x18x1
+Energy: -24.0942134 Ry | success=True
+
+Running kpoints: ecut=70 Ry, k=24x24x1
+Energy: -24.09427867 Ry | success=True
+
+Running kpoints: ecut=70 Ry, k=20x20x1
+Energy: -24.09432343 Ry | success=True
+
+========== SUMMARY ==========
+cutoff   ecut=40 Ry k=12x12x1  E=    -24.0059021 Ry success=True
+cutoff   ecut=55 Ry k=12x12x1  E=   -24.08273339 Ry success=True
+cutoff   ecut=70 Ry k=12x12x1  E=   -24.09391003 Ry success=True
+kpoints  ecut=70 Ry k=6x6x1    E=   -24.09066159 Ry success=True
+kpoints  ecut=70 Ry k=12x12x1  E=   -24.09391003 Ry success=True
+kpoints  ecut=70 Ry k=18x18x1  E=    -24.0942134 Ry success=True
+kpoints  ecut=70 Ry k=24x24x1  E=   -24.09427867 Ry success=True
+kpoints  ecut=70 Ry k=20x20x1  E=   -24.09432343 Ry success=True
+
+Saved results.csv and individual calculation outputs.

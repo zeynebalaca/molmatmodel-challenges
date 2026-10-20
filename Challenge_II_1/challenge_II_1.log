@@ -1,0 +1,27 @@
+
+Running Quantum ESPRESSO: 30 Ry
+Exit code: 0
+Converged: True
+Total energy: -16.73649696 Ry
+
+Running Quantum ESPRESSO: 50 Ry
+Exit code: 0
+Converged: True
+Total energy: -16.7367597 Ry
+
+Running Quantum ESPRESSO: 70 Ry
+Exit code: 0
+Converged: True
+Total energy: -16.73677386 Ry
+
+Running ASE + Quantum ESPRESSO: 30 Ry
+Exit code: 0
+ASE total energy: -227.711622 eV
+
+========== SUMMARY ==========
+QE 30 Ry: -16.73649696 Ry | converged=True
+QE 50 Ry: -16.7367597 Ry | converged=True
+QE 70 Ry: -16.73677386 Ry | converged=True
+ASE 30 Ry: -227.711622 eV | success=True
+
+Calculation logs saved in separate folders.

@@ -1,0 +1,13 @@
+{
+  "system": "H_on_C18",
+  "formula": "C18H",
+  "energy_eV": -2963.479829164693,
+  "converged": true,
+  "max_force_eV_A": 0.003520868669064904,
+  "cutoff_Ry": 100,
+  "kpoints": [
+    1,
+    1,
+    1
+  ]
+}

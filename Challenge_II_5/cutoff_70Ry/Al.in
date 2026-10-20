@@ -1,0 +1,38 @@
+&CONTROL
+ calculation = 'scf',
+ prefix = 'Al',
+ pseudo_dir = './',
+ outdir = './tmp',
+ tstress = .true.,
+ tprnfor = .true.,
+ etot_conv_thr = 1.0d-5,
+ forc_conv_thr = 1.0d-3,
+/
+&SYSTEM
+ ibrav = 0,
+ nat = 1,
+ ntyp = 1,
+ ecutwfc = 70,
+ ecutrho = 560,
+ occupations = 'smearing',
+ smearing = 'gauss',
+ degauss = 0.01,
+/
+&ELECTRONS
+ conv_thr = 1.0d-9,
+ mixing_beta = 0.5,
+/
+
+ATOMIC_SPECIES
+ Al 26.9815385 Al.upf
+
+CELL_PARAMETERS angstrom
+ 0.0 2.019464845 2.019464845
+ 2.019464845 0.0 2.019464845
+ 2.019464845 2.019464845 0.0
+
+ATOMIC_POSITIONS angstrom
+ Al 0.0 0.0 0.0
+
+K_POINTS automatic
+12 12 12 0 0 0

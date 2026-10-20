@@ -1,0 +1,15 @@
+{
+  "system": "H_on_C8",
+  "formula": "C8H",
+  "n_atoms": 9,
+  "cutoff_Ry": 100,
+  "kpoints": [
+    1,
+    1,
+    1
+  ],
+  "energy_eV": -1319.0771954306667,
+  "relaxed": true,
+  "converged": true,
+  "max_force_eV_A": 0.003276870979058873
+}

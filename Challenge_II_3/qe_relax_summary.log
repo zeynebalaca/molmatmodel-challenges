@@ -1,0 +1,36 @@
+
+===== Running original structure =====
+Exit code: 0
+Geometry converged: True
+Last SCF energy: -16.92499261 Ry
+Final coordinates and cell:
+new unit-cell volume =    275.96692 a.u.^3 (    40.89408 Ang^3 )
+     density =      2.28083 g/cm^3
+
+CELL_PARAMETERS (angstrom)
+   0.000000000   2.734492967   2.734492967
+   2.734492967   0.000000000   2.734492967
+   2.734492967   2.734492967   0.000000000
+
+ATOMIC_POSITIONS (angstrom)
+Si               1.3672464836        4.1017394509        4.1017394509
+Si              -0.0000000000        0.0000000000       -0.0000000000
+
+===== Running shifted structure =====
+Exit code: 0
+Geometry converged: True
+Last SCF energy: -16.92499256 Ry
+Final coordinates and cell:
+new unit-cell volume =    275.99978 a.u.^3 (    40.89895 Ang^3 )
+     density =      2.28056 g/cm^3
+
+CELL_PARAMETERS (angstrom)
+   0.000000000   2.734880411   2.734880411
+   2.734317324   0.000136834   2.734743577
+   2.734317324   2.734743577   0.000136834
+
+ATOMIC_POSITIONS (angstrom)
+Si               1.4074948856        4.1023206168        4.1023206168
+Si               0.0402359471       -0.0000000000       -0.0000000000
+
+QE relaxation runs finished. Outputs saved in original/ and shifted/.

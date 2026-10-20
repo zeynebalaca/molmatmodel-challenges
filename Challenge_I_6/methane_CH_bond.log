@@ -1,0 +1,86 @@
+
+===== EMT =====
+method: EMT
+E_CH4_eV: 1.766778683307452
+E_CH3_eV: 1.8106416264430871
+E_H_eV: 3.21
+BDE_eV: 3.253862943135635
+BDE_kJ_mol: 313.94896606844173
+reference_eV: 4.52
+CH4_converged: True
+CH3_converged: True
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+
+Loading MACE-MP medium model...
+Using Materials Project MACE for MACECalculator with /home/zeyneb/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+
+===== MACE-MP =====
+/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/torch/autograd/graph.py:1072: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+method: MACE-MP
+E_CH4_eV: -23.91358857102609
+E_CH3_eV: -18.43883058969003
+E_H_eV: -1.1589879653522117
+BDE_eV: 4.315770015983848
+BDE_kJ_mol: 416.4070699922015
+reference_eV: 4.52
+CH4_converged: True
+CH3_converged: True
+<string>:2: (WARNING/2) Title underline too short.
+
+Challenge I.6 - Methane C-H Bond Dissociation Energy
+===================================================
+Traceback (most recent call last):
+  File "/home/zeyneb/challenges/Challenge_I_6/methane_CH_bond.py", line 106, in <module>
+    publish_doctree(report, settings_overrides={"halt_level": 2})
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/core.py", line 577, in publish_doctree
+    _output, publisher = publish_programmatically(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/core.py", line 794, in publish_programmatically
+    output = publisher.publish(enable_exit_status=enable_exit_status)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/core.py", line 269, in publish
+    self.document = self.reader.read(self.source, self.parser,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/readers/__init__.py", line 95, in read
+    self.parse()
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/readers/__init__.py", line 101, in parse
+    self.parser.parse(self.input, document)
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/parsers/rst/__init__.py", line 185, in parse
+    self.statemachine.run(inputlines, document, inliner=self.inliner)
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/parsers/rst/states.py", line 182, in run
+    results = StateMachineWS.run(self, input_lines, input_offset,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/statemachine.py", line 234, in run
+    context, next_state, result = self.check_line(
+                                  ^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/statemachine.py", line 446, in check_line
+    return method(match, context, next_state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/parsers/rst/states.py", line 2899, in underline
+    msg = self.reporter.warning(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/utils/__init__.py", line 248, in warning
+    return self.system_message(self.WARNING_LEVEL, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeyneb/miniforge3/envs/molmatmodel/lib/python3.11/site-packages/docutils/utils/__init__.py", line 217, in system_message
+    raise SystemMessage(msg, level)
+docutils.utils.SystemMessage: <string>:2: (WARNING/2) Title underline too short.
+
+Challenge I.6 - Methane C-H Bond Dissociation Energy
+===================================================

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Quantum ESPRESSO temporary/restart data
+tmp/
+*.save/
+*.hdf5
+*.h5
+*.wfc
+*.wfc1
+*.wfc2
+*.wfc3
+*.wfc4
+
+# Temporary editor and system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local environments
+.venv/
+venv/
+.env
+
+*.py.bak

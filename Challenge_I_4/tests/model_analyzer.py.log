@@ -1,0 +1,130 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+
+[1m================================================================================[0m
+[1m   MACE Model Analyzer   [0m
+[1m================================================================================[0m
+
+[0;34mModels directory:[0m /home/zeyneb/.cache/mace
+[0;34mDevice:[0m cpu
+[0;34mTest molecules:[0m H2O, CH4, NH3, CO2, CH3CH2OH, C6H6
+
+[1mFound 2 models[0m
+
+================================================================================
+
+[0;36m────────────────────────────────────────────────────────────────────────────────[0m
+[1m[1/2] Analyzing: macempa0mediummodel[0m
+[0;36m────────────────────────────────────────────────────────────────────────────────[0m
+  [0;34mSize:[0m 75.8 MB
+  [0;34mModified:[0m 2026-10-19 15:58:18
+  [0;34mArchitecture:[0m unknown
+  [0;34mLayers:[0m unknown
+  [0;34mType:[0m MPA (Materials Project)
+  [0;34mElements supported:[0m Al, C, Cl, H, N, Na, O, Si
+  [0;34mElement count:[0m 8
+  [0;34mTesting on 6 molecules:[0m
+  [0;32m✓ Model loaded successfully[0m
+           H2O: -13.785927 eV (0.045s) [O, H]
+           CH4: -23.166403 eV (0.057s) [C, H]
+           NH3: -18.995643 eV (0.036s) [H, N]
+           CO2: -22.545622 eV (0.022s) [O, C]
+      CH3CH2OH: -46.255396 eV (0.050s) [O, C, H]
+          C6H6: -75.069722 eV (0.068s) [C, H]
+
+  [0;32m✓ Model summary:[0m
+    Success: 6/6 molecules
+    Total time: 0.278s
+    Energy range: -75.069722 to -13.785927 eV
+    Avg time per molecule: 0.046s
+    Elements detected: Al, C, Cl, H, N, Na, O, Si
+
+[0;36m────────────────────────────────────────────────────────────────────────────────[0m
+[1m[2/2] Analyzing: 20231203mace128L1_epoch199model[0m
+[0;36m────────────────────────────────────────────────────────────────────────────────[0m
+  [0;34mSize:[0m 42.4 MB
+  [0;34mModified:[0m 2026-10-19 16:09:56
+  [0;34mArchitecture:[0m 128
+  [0;34mLayers:[0m L1
+  [0;34mType:[0m General
+  [0;34mElements supported:[0m Al, C, Cl, H, N, Na, O, Si
+  [0;34mElement count:[0m 8
+  [0;34mTesting on 6 molecules:[0m
+  [0;32m✓ Model loaded successfully[0m
+           H2O: -14.159366 eV (0.040s) [O, H]
+           CH4: -23.912776 eV (0.054s) [C, H]
+           NH3: -19.509018 eV (0.033s) [H, N]
+           CO2: -22.777649 eV (0.020s) [O, C]
+      CH3CH2OH: -47.152156 eV (0.047s) [O, C, H]
+          C6H6: -75.705334 eV (0.062s) [C, H]
+
+  [0;32m✓ Model summary:[0m
+    Success: 6/6 molecules
+    Total time: 0.256s
+    Energy range: -75.705334 to -14.159366 eV
+    Avg time per molecule: 0.043s
+    Elements detected: Al, C, Cl, H, N, Na, O, Si
+
+[1m================================================================================[0m
+[1m   ANALYSIS REPORT   [0m
+[1m================================================================================[0m
+
+[0;36m1. Model Overview:[0m
+Model Name                         Size               Type        Elements     Arch   Layers
+-----------------------------------------------------------------------------------------------
+macempa0mediummodel               75.8MB MPA (Materials Pro Al, C, Cl, H, N (+3)  unknown  unknown
+20231203mace128L1_epoch199mo      42.4MB            General Al, C, Cl, H, N (+3)      128       L1
+
+[0;36m2. Element Coverage Summary:[0m
+Element       Frequency       Tested in    Models supporting
+------------------------------------------------------------
+Al                    2                                    2/2
+C                     2 CH4, CO2, CH3CH2OH (+1)                    2/2
+Cl                    2                                    2/2
+H                     2 H2O, CH4, NH3 (+2)                    2/2
+N                     2             NH3                    2/2
+Na                    2                                    2/2
+O                     2 H2O, CO2, CH3CH2OH                    2/2
+Si                    2                                    2/2
+
+[0;36m3. Performance Comparison:[0m
+Model                             Success  Total Time (s)    Avg Time (s)        Elements
+------------------------------------------------------------------------------------------
+macempa0mediummodel                     6/6           0.278           0.046               8
+20231203mace128L1_epoch199mo            6/6           0.256           0.043               8
+
+[0;36m4. Energy Comparison (eV):[0m
+    Molecule    macempa0mediummodel 20231203mace128L1_ep...
+--------------------------------------------------------
+         H2O             -13.785927             -14.159366
+         CH4             -23.166403             -23.912776
+         NH3             -18.995643             -19.509018
+         CO2             -22.545622             -22.777649
+    CH3CH2OH             -46.255396             -47.152156
+        C6H6             -75.069722             -75.705334
+
+[0;36m5. Performance Summary:[0m
+  [0;32mFastest model:[0m 20231203mace128L1_epoch199model (0.043s per molecule)
+  [0;32mMost elements supported:[0m macempa0mediummodel (8 elements)
+  [0;32mSmallest model:[0m 20231203mace128L1_epoch199model (42.4 MB)
+  [0;32mLargest model:[0m macempa0mediummodel (75.8 MB)
+
+[0;36m6. Recommendations:[0m
+  • For quick calculations: 20231203mace128L1_epoch199model
+  • For broad element coverage: macempa0mediummodel (8 elements)
+  • For maximum accuracy: macempa0mediummodel (largest model)
+
+[0;36m7. Detailed Results:[0m
+  • Run 'python mace_calc.py --list' to see all models
+  • Run 'python mace_calc.py [molecule] [model]' for specific calculations
+  • Element coverage detected by testing molecules
+
+[0;32m================================================================================[0m
+[0;32m✓ Analysis complete![0m
+[0;32m================================================================================[0m
+
+[0;36mUsage examples:[0m
+  python model_analyzer.py
+  python model_analyzer.py --device cuda
+  python model_analyzer.py --export
+  python model_analyzer.py --silent
+  python model_analyzer.py --config my_config.txt

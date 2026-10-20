@@ -1,0 +1,3 @@
+case,fermi_eV,vacuum_left_eV,vacuum_right_eV,vacuum_avg_eV,left_range_eV,right_range_eV,work_function_eV
+with_2D,-4.240500,0.046723,0.046723,0.046723,0.291985,0.291985,4.287223
+without_2D,-1.717400,2.522853,2.522853,2.522853,0.001666,0.001666,4.240253

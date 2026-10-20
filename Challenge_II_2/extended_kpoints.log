@@ -1,0 +1,19 @@
+Running course_Si: 8x8x8
+Energy: -16.92459923 Ry | Delta: 10.075628013758275 meV/atom | success=True
+Running course_Si: 10x10x10
+Energy: -16.92483327 Ry | Delta: 1.592138209268179 meV/atom | success=True
+Running course_Si: 12x12x12
+Energy: -16.92487625 Ry | Delta: 0.2923863452125611 meV/atom | success=True
+Running course_Si: 16x16x16
+Energy: -16.9248869 Ry | Delta: 0.07245031588070469 meV/atom | success=True
+Running alternative_PBE_PAW: 8x8x8
+Energy: -93.45328451 Ry | Delta: 10.040185183188887 meV/atom | success=True
+Running alternative_PBE_PAW: 10x10x10
+Energy: -93.4535173 Ry | Delta: 1.5836346510394401 meV/atom | success=True
+Running alternative_PBE_PAW: 12x12x12
+Energy: -93.45355993 Ry | Delta: 0.2900053488882126 meV/atom | success=True
+Running alternative_PBE_PAW: 16x16x16
+Energy: -93.45357049 Ry | Delta: 0.07183805973618591 meV/atom | success=True
+
+SUCCESS: Extended k-point scan finished.
+Results saved to extended_kpoints.csv

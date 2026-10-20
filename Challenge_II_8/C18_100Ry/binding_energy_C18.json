@@ -1,0 +1,13 @@
+{
+  "E_C18_eV": -2947.338157482355,
+  "E_H_eV": -12.559540211858682,
+  "E_H_on_C18_eV": -2963.479829164693,
+  "binding_energy_eV": 3.5821314704789984,
+  "cutoff_Ry": 100,
+  "kpoints": [
+    1,
+    1,
+    1
+  ],
+  "initial_adsorption_carbon_index": 13
+}

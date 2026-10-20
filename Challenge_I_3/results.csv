@@ -1,0 +1,4 @@
+molecule,bond_length_A,atomization_eV,reference_eV,converged,steps
+O2,1.23606,5.52635,5.17,True,3
+F2,1.45326,-0.58251,1.6,True,2
+H2,0.74783,4.20651,4.52,True,1

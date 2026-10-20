@@ -1,0 +1,8 @@
+Löwdin Charges from SCF calculation (projwfc.out):
+================================================
+Lowdin Charges: 
+
+     Atom #   1: total charge =   2.9560, s =  0.9215, 
+     Atom #   1: total charge =   2.9560, p =  2.0345, pz=  0.6782, px=  0.6782, py=  0.6782, 
+
+Spilling Parameter: 0.014700

@@ -1,0 +1,1 @@
+/home/miroi/miniconda3/envs/mace_env/bin/pw.x

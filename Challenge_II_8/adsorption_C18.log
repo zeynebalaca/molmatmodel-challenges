@@ -1,0 +1,22 @@
+===== H@C18 STARTING STRUCTURE =====
+Target carbon index: 13
+Target carbon position: [1.23386199 3.5618528  7.5       ]
+Initial H position: [1.23386199 3.5618528  8.7       ]
+Initial C-H distance: 1.20 Å
+
+===== RUNNING C18 =====
+Energy: -2947.33815748 eV
+Maximum force: 0.000013 eV/Å
+Converged: True
+
+===== RUNNING H_on_C18 =====
+Energy: -2963.47982916 eV
+Maximum force: 0.003521 eV/Å
+Converged: True
+
+========== C18 RESULTS ==========
+E(C18)   = -2947.33815748 eV
+E(H)     = -12.55954021 eV
+E(H@C18) = -2963.47982916 eV
+Binding energy = 3.58213147 eV
+SUCCESS: H@C18 adsorption completed.

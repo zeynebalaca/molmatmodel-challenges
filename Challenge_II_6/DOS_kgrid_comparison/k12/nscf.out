@@ -1,0 +1,296 @@
+
+     Program PWSCF v.7.5 starts on 20Oct2026 at 18: 6:53 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       4 processor cores
+     Number of MPI processes:                 4
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     7126 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from nscf.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+
+     Atomic positions and unit cell read from directory:
+     ./tmp/graphene.save/
+
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+
+     R & G space division:  proc/nbgrp/npool/nimage =       4
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         267     136     40                43447    15374    2536
+     Max         268     137     41                43478    15381    2551
+     Sum        1069     547    163               173823    61509   10179
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       4.6609  a.u.
+     unit-cell volume          =     533.2790 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=           12
+     kinetic-energy cutoff     =      90.0000  Ry
+     charge density cutoff     =     720.0000  Ry
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+     celldm(1)=   4.660869  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000   6.081676 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350 -0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000 -0.000000  0.164428 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ./C.upf
+     MD5 check sum: 34a24e64c0a39f27c6c36b90a16ac686
+     Pseudo is Norm-conserving + core correction, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1248 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+     C                 4.00    12.01100     C ( 1.00)
+
+     24 Sym. Ops., with inversion, found (12 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        C      tau(   1) = (   0.0000000  -0.0000000   3.0408379  )
+         2        C      tau(   2) = (   0.0000000   0.5773503   3.0408379  )
+
+     number of k points=    19  Gaussian smearing, width (Ry)=  0.0100
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0138889
+        k(    2) = (   0.0000000   0.0962250   0.0000000), wk =   0.0833333
+        k(    3) = (   0.0000000   0.1924501   0.0000000), wk =   0.0833333
+        k(    4) = (   0.0000000   0.2886751   0.0000000), wk =   0.0833333
+        k(    5) = (   0.0000000   0.3849002   0.0000000), wk =   0.0833333
+        k(    6) = (   0.0000000   0.4811252   0.0000000), wk =   0.0833333
+        k(    7) = (   0.0000000  -0.5773503   0.0000000), wk =   0.0416667
+        k(    8) = (   0.0833333   0.1443376   0.0000000), wk =   0.0833333
+        k(    9) = (   0.0833333   0.2405626   0.0000000), wk =   0.1666667
+        k(   10) = (   0.0833333   0.3367877   0.0000000), wk =   0.1666667
+        k(   11) = (   0.0833333   0.4330127   0.0000000), wk =   0.1666667
+        k(   12) = (   0.0833333   0.5292377   0.0000000), wk =   0.1666667
+        k(   13) = (   0.1666667   0.2886751   0.0000000), wk =   0.0833333
+        k(   14) = (   0.1666667   0.3849002   0.0000000), wk =   0.1666667
+        k(   15) = (   0.1666667   0.4811252   0.0000000), wk =   0.1666667
+        k(   16) = (   0.1666667   0.5773503   0.0000000), wk =   0.0833333
+        k(   17) = (   0.2500000   0.4330127   0.0000000), wk =   0.0833333
+        k(   18) = (   0.2500000   0.5292377   0.0000000), wk =   0.1666667
+        k(   19) = (   0.3333333   0.5773503   0.0000000), wk =   0.0277778
+
+     Dense  grid:   173823 G-vectors     FFT dimensions: (  45,  45, 243)
+
+     Smooth grid:    61509 G-vectors     FFT dimensions: (  30,  30, 180)
+
+     Estimated max dynamical RAM per process >      17.00 MB
+
+     Estimated total dynamical RAM >      67.99 MB
+ ----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D
+  The code is running with the 2D cutoff
+  Please refer to:
+  Sohier, T., Calandra, M., & Mauri, F. (2017), 
+  Density functional perturbation theory for gated two-dimensional heterostructures:
+  Theoretical developments and application to flexural phonons in graphene.
+  Physical Review B, 96(7), 75448. https://doi.org/10.1103/PhysRevB.96.075448
+ ----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D----2D
+
+     The potential is recalculated from file :
+     ./tmp/graphene.save/charge-density
+
+     Starting wfcs are    8 randomized atomic wfcs +    4 random wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  1.25E-11,  avg # of iterations = 65.2
+
+     total cpu time spent up to now is        3.6 secs
+
+     End of band structure calculation
+
+          k = 0.0000 0.0000 0.0000 (  7639 PWs)   bands (ev):
+
+   -23.7778 -11.8671  -7.3018  -7.3018  -0.9488  -0.0453   1.7542   2.6638
+     4.1424   4.1424   5.2602   6.9225
+
+          k = 0.0000 0.0962 0.0000 (  7623 PWs)   bands (ev):
+
+   -23.6141 -11.6709  -7.9534  -7.6412  -0.7265   0.1790   1.9778   2.8861
+     4.2063   4.8379   5.4894   6.5951
+
+          k = 0.0000 0.1925 0.0000 (  7628 PWs)   bands (ev):
+
+   -23.1246 -11.0877  -9.5933  -8.4363  -0.0596   0.8503   2.6478   3.5487
+     4.1544   5.1009   6.1615   6.6801
+
+          k = 0.0000 0.2887 0.0000 (  7670 PWs)   bands (ev):
+
+   -22.3151 -11.6940 -10.1369  -9.3196   1.0497   1.9463   3.0211   3.6957
+     3.9499   4.6708   7.2672   8.8201
+
+          k = 0.0000 0.3849 0.0000 (  7682 PWs)   bands (ev):
+
+   -21.1976 -13.8989 -10.0563  -8.8689   0.6718   2.5894   3.5390   3.5506
+     5.3553   6.2002   8.8051  10.1904
+
+          k = 0.0000 0.4811 0.0000 (  7700 PWs)   bands (ev):
+
+   -19.8030 -15.9996 -10.5315  -7.4477  -1.4573   3.2762   4.5944   5.5282
+     7.3572   8.1218   9.6122  10.4817
+
+          k = 0.0000-0.5774 0.0000 (  7700 PWs)   bands (ev):
+
+   -18.5411 -17.5048 -10.6946  -6.6053  -2.5515   3.1969   6.8904   7.0402
+     7.7669   8.0177   9.7544   9.8042
+
+          k = 0.0833 0.1443 0.0000 (  7641 PWs)   bands (ev):
+
+   -23.2875 -11.2811  -8.9891  -8.3200  -0.2817   0.6270   2.4254   3.3295
+     4.5030   5.5816   5.7118   5.9420
+
+          k = 0.0833 0.2406 0.0000 (  7666 PWs)   bands (ev):
+
+   -22.6380 -10.7013 -10.5129  -9.3206   0.6073   1.5185   3.3192   3.8328
+     4.2233   4.6515   6.8240   7.2368
+
+          k = 0.0833 0.3368 0.0000 (  7695 PWs)   bands (ev):
+
+   -21.6744 -12.7760 -10.2101  -9.3970   1.6796   1.9361   2.8778   4.3566
+     4.7184   5.5295   8.1446   9.3525
+
+          k = 0.0833 0.4330 0.0000 (  7694 PWs)   bands (ev):
+
+   -20.4152 -14.8996 -10.8475  -8.0181  -0.5141   3.6766   4.1346   4.6300
+     6.4683   7.2378   9.8828  10.5508
+
+          k = 0.0833 0.5292 0.0000 (  7698 PWs)   bands (ev):
+
+   -18.9370 -16.8408 -11.1773  -6.7110  -2.2777   3.9339   5.8879   6.7682
+     8.3946   8.6867   8.9156   9.5987
+
+          k = 0.1667 0.2887 0.0000 (  7697 PWs)   bands (ev):
+
+   -21.8344 -12.0343 -10.6833  -9.5757   1.7168   2.1329   2.6255   4.4400
+     5.2927   5.8481   7.3286   7.9391
+
+          k = 0.1667 0.3849 0.0000 (  7725 PWs)   bands (ev):
+
+   -20.7276 -13.7625 -11.7416  -8.3230   0.1904   3.2609   4.1500   5.9176
+     6.1465   6.7451   8.7632   9.4785
+
+          k = 0.1667 0.4811 0.0000 (  7723 PWs)   bands (ev):
+
+   -19.3530 -15.6729 -12.3194  -6.8974  -1.7176   5.2121   5.8471   6.0074
+     8.0120   8.2419   9.6226   9.9519
+
+          k = 0.1667 0.5774 0.0000 (  7719 PWs)   bands (ev):
+
+   -18.1204 -17.1064 -12.5049  -6.0066  -2.7827   5.7375   7.3859   7.4487
+     7.6445   8.6932   9.9022  10.3107
+
+          k = 0.2500 0.4330 0.0000 (  7719 PWs)   bands (ev):
+
+   -19.5006 -14.7995 -13.2241  -6.9809  -1.4229   5.0038   5.7144   7.7224
+     7.8841   8.1173   8.4061   9.7487
+
+          k = 0.2500 0.5292 0.0000 (  7723 PWs)   bands (ev):
+
+   -18.0798 -16.2198 -13.9325  -5.5965  -2.9416   6.6657   7.0893   7.9965
+     8.8282   9.0522   9.9501  10.9448
+
+          k = 0.3333 0.5774 0.0000 (  7731 PWs)   bands (ev):
+
+   -16.8639 -16.8639 -14.8261  -4.2407  -4.2407   6.4174   8.6567   8.6567
+     9.2618  10.7124  10.7124  11.2945
+
+     the Fermi energy is    -4.2407 ev
+     (compare with:    -4.2405 eV, computed in scf)
+
+     Writing all to output data dir ./tmp/graphene.save/ :
+     XML data file, pseudopotentials, collected wavefunctions
+
+     init_run     :      0.36s CPU      0.37s WALL (       1 calls)
+     electrons    :      3.02s CPU      3.18s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.24s CPU      0.25s WALL (       1 calls)
+     hinit0       :      0.09s CPU      0.10s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :      3.02s CPU      3.18s WALL (       1 calls)
+     v_of_rho     :      0.02s CPU      0.03s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.00s CPU      0.00s WALL (      19 calls)
+     cegterg      :      2.93s CPU      3.09s WALL (      71 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.09s CPU      0.10s WALL (    1257 calls)
+     h_psi        :      2.53s CPU      2.67s WALL (    1328 calls)
+     g_psi        :      0.04s CPU      0.04s WALL (    1238 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.06s CPU      0.07s WALL (    1328 calls)
+     vloc_psi     :      2.42s CPU      2.55s WALL (    1328 calls)
+                                        0.00s GPU  (    1328 calls)
+     add_vuspsi   :      0.04s CPU      0.04s WALL (    1328 calls)
+
+     General routines
+     calbec       :      0.06s CPU      0.07s WALL (    1328 calls)
+     fft          :      0.09s CPU      0.09s WALL (      12 calls)
+     ffts         :      0.22s CPU      0.22s WALL (       1 calls)
+     fftw         :      2.20s CPU      2.32s WALL (   17028 calls)
+     interpolate  :      0.22s CPU      0.22s WALL (       1 calls)
+     davcio       :      0.00s CPU      0.01s WALL (      38 calls)
+
+     Parallel routines
+
+     PWSCF        :      3.41s CPU      3.59s WALL
+
+
+   This run was terminated on:  18: 6:57  20Oct2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

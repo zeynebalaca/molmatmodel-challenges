@@ -1,0 +1,103 @@
+Configuration loaded from config.txt
+
+PROGRAM: nwchem
+FULL PATH: /home/zeyneb/miniforge3/envs/molmatmodel/bin/nwchem
+LDD OUTPUT FOR nwchem:
+	linux-vdso.so.1 (0x00007d8f2dd4d000)
+	libscalapack.so => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libscalapack.so (0x00007d8f19e00000)
+	libopenblas.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libopenblas.so.0 (0x00007d8f17798000)
+	libpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x00007d8f2dd3b000)
+	libmpi_usempif08.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libmpi_usempif08.so.40 (0x00007d8f2dcf8000)
+	libmpi_usempi_ignore_tkr.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libmpi_usempi_ignore_tkr.so.40 (0x00007d8f2dce6000)
+	libmpi_mpifh.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libmpi_mpifh.so.40 (0x00007d8f2dc71000)
+	libmpi.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libmpi.so.40 (0x00007d8f17200000)
+	librt.so.1 => /usr/lib/x86_64-linux-gnu/librt.so.1 (0x00007d8f2dc6c000)
+	libgfortran.so.5 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgfortran.so.5 (0x00007d8f16e00000)
+	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007d8f1a4da000)
+	libpython3.11.so.1.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libpython3.11.so.1.0 (0x00007d8f16800000)
+	libdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x00007d8f2dc65000)
+	libutil.so.1 => /usr/lib/x86_64-linux-gnu/libutil.so.1 (0x00007d8f2dc60000)
+	libxcf03.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libxcf03.so.15 (0x00007d8f2dc56000)
+	libxc.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libxc.so.15 (0x00007d8f12400000)
+	libplumed.so => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libplumed.so (0x00007d8f2dc4a000)
+	libstdc++.so.6 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libstdc++.so.6 (0x00007d8f12000000)
+	libfftw3.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libfftw3.so.3 (0x00007d8f11c00000)
+	libgomp.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgomp.so.1 (0x00007d8f17688000)
+	libgcc_s.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgcc_s.so.1 (0x00007d8f1a4ac000)
+	libquadmath.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libquadmath.so.0 (0x00007d8f1a463000)
+	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007d8f11800000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007d8f2dd4f000)
+	libucc.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucc.so.1 (0x00007d8f1763b000)
+	libopen-pal.so.80 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libopen-pal.so.80 (0x00007d8f166c8000)
+	libfabric.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libfabric.so.1 (0x00007d8f11a42000)
+	libucp.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucp.so.0 (0x00007d8f122fd000)
+	libucs.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucs.so.0 (0x00007d8f175cb000)
+	libucm.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucm.so.0 (0x00007d8f2dc2b000)
+	libuct.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libuct.so.0 (0x00007d8f171c0000)
+	libnl-route-3.so.200 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libnl-route-3.so.200 (0x00007d8f11f68000)
+	libnl-3.so.200 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libnl-3.so.200 (0x00007d8f1a43e000)
+	libevent_core-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libevent_core-2.1.so.7 (0x00007d8f17187000)
+	libevent_pthreads-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libevent_pthreads-2.1.so.7 (0x00007d8f175c6000)
+	libhwloc.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libhwloc.so.15 (0x00007d8f16668000)
+	libpmix.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libpmix.so.2 (0x00007d8f11400000)
+	libplumedKernel.so => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libplumedKernel.so (0x00007d8f10a00000)
+	librdmacm.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./librdmacm.so.1 (0x00007d8f175a4000)
+	libefa.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libefa.so.1 (0x00007d8f17175000)
+	libibverbs.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libibverbs.so.1 (0x00007d8f16ddb000)
+	libatomic.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libatomic.so.1 (0x00007d8f17169000)
+	libxml2.so.16 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libxml2.so.16 (0x00007d8f116ba000)
+	libgsl.so.25 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libgsl.so.25 (0x00007d8f10600000)
+	libz.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libz.so.1 (0x00007d8f122e2000)
+	libiconv.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libiconv.so.2 (0x00007d8f11e55000)
+	libicuuc.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libicuuc.so.78 (0x00007d8f10200000)
+	libicudata.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libicudata.so.78 (0x00007d8f0e200000)
+
+PROGRAM: mpirun
+FULL PATH: /home/zeyneb/miniforge3/envs/molmatmodel/bin/mpirun
+LDD OUTPUT FOR mpirun:
+	linux-vdso.so.1 (0x0000796644449000)
+	libdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x000079664440e000)
+	libpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x0000796644409000)
+	libpmix.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libpmix.so.2 (0x0000796644000000)
+	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x0000796643c00000)
+	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007966442e3000)
+	libutil.so.1 => /usr/lib/x86_64-linux-gnu/libutil.so.1 (0x00007966442dc000)
+	libevent_core-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libevent_core-2.1.so.7 (0x00007966442a3000)
+	libevent_pthreads-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libevent_pthreads-2.1.so.7 (0x000079664429e000)
+	libhwloc.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libhwloc.so.15 (0x000079664423e000)
+	/lib64/ld-linux-x86-64.so.2 (0x000079664444b000)
+	libxml2.so.16 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libxml2.so.16 (0x0000796643eba000)
+	libz.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libz.so.1 (0x0000796643e9f000)
+	libiconv.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libiconv.so.2 (0x0000796643aed000)
+	libicuuc.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libicuuc.so.78 (0x0000796643800000)
+	libicudata.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libicudata.so.78 (0x0000796641800000)
+	libstdc++.so.6 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libstdc++.so.6 (0x0000796641400000)
+	libgcc_s.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libgcc_s.so.1 (0x0000796643e71000)
+
+============================================================
+NWChem Runner
+============================================================
+Input file: ch3_zora_b3lyp_prop.nw
+NPROC values: [2, 4]
+Output directory: results
+Original input file will NOT be modified
+============================================================
+
+Creating modified input: ch3_zora_b3lyp_prop_nproc2.nw
+Running NPROC=2 in /home/zeyneb/challenges/Challenge_I_2/nwchem/python-driven/results/nproc2
+NPROC=2: SUCCESS, wall=8.3 s
+Creating modified input: ch3_zora_b3lyp_prop_nproc4.nw
+Running NPROC=4 in /home/zeyneb/challenges/Challenge_I_2/nwchem/python-driven/results/nproc4
+NPROC=4: SUCCESS, wall=6.5 s
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+NPROC      Wall Time (s)   Speedup      Efficiency   Status         
+------------------------------------------------------------
+2          8.30            1.00         50.0       % SUCCESS        
+4          6.50            1.28         31.9       % SUCCESS        
+============================================================
+
+Fastest run: NPROC=4 with wall time=6.50s
+Speedup over NPROC=2: 1.28x

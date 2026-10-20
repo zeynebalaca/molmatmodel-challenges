@@ -1,0 +1,13 @@
+pseudopotential,test,ecutwfc_Ry,k_grid,energy_Ry,energy_eV,success,exit_code
+course_Si,cutoff,30,4,-16.91076906,-230.08273430418168,True,0
+course_Si,cutoff,50,4,-16.9110111,-230.0860274261452,True,0
+course_Si,cutoff,70,4,-16.9110244,-230.0862083818637,True,0
+course_Si,kpoints,70,2,-16.73677386,-227.71540900810774,True,0
+course_Si,kpoints,70,4,-16.9110244,-230.0862083818637,True,0
+course_Si,kpoints,70,6,-16.92311814,-230.250752097013,True,0
+alternative_PBE_PAW,cutoff,30,4,-93.43892062,-1271.3012796995163,True,0
+alternative_PBE_PAW,cutoff,50,4,-93.43971276,-1271.3120573132667,True,0
+alternative_PBE_PAW,cutoff,70,4,-93.4397398,-1271.3124252112086,True,0
+alternative_PBE_PAW,kpoints,70,2,-93.26568279,-1268.9442589472428,True,0
+alternative_PBE_PAW,kpoints,70,4,-93.4397398,-1271.3124252112086,True,0
+alternative_PBE_PAW,kpoints,70,6,-93.45180863,-1271.4766300085423,True,0

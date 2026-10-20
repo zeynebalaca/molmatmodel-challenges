@@ -1,0 +1,15 @@
+{
+  "system": "H",
+  "formula": "H",
+  "n_atoms": 1,
+  "cutoff_Ry": 80,
+  "kpoints": [
+    1,
+    1,
+    1
+  ],
+  "energy_eV": -12.559509462994914,
+  "relaxed": false,
+  "converged": true,
+  "max_force_eV_A": null
+}

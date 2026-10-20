@@ -1,0 +1,9 @@
+{
+  "site": "on_top",
+  "converged": true,
+  "total_energy_eV": -7481.345812308932,
+  "adsorption_energy_eV": -0.23722911665299762,
+  "constrained_max_force_eV_A": 0.0008996289961339346,
+  "Hg_height_A": 3.4339156316643553,
+  "method": "Fixed carbon slab, fixed Hg x/y, optimized Hg z"
+}

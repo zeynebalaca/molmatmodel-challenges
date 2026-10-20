@@ -1,0 +1,8 @@
+test,calculation,ecutwfc_Ry,k_grid,energy_Ry,success,exit_code
+cutoff_40Ry,scf,40,12,-4.63586655,True,0
+cutoff_55Ry,scf,55,12,-4.63588452,True,0
+cutoff_70Ry,scf,70,12,-4.63589274,True,0
+kpoints_6,scf,70,6,-4.6401888,True,0
+kpoints_10,scf,70,10,-4.63404066,True,0
+kpoints_14,scf,70,14,-4.63481792,True,0
+cell_relax,vc-relax,70,14,-4.63482356,True,0

@@ -1,0 +1,28 @@
+
+========== H_on_C8 ==========
+Formula: C8H
+Number of atoms: 9
+Starting BFGS relaxation...
+Geometry optimization converged: True
+Final energy: -1319.06928195 eV
+Maximum force: 0.003267 eV/Å
+
+========== C8 ==========
+Formula: C8
+Number of atoms: 8
+Starting BFGS relaxation...
+Geometry optimization converged: True
+Final energy: -1303.64587257 eV
+Maximum force: 0.000013 eV/Å
+
+========== H ==========
+Formula: H
+Number of atoms: 1
+Final energy: -12.55950946 eV
+
+========== FINAL RESULTS ==========
+E(H@C8) = -1319.06928195 eV
+E(C8)   = -1303.64587257 eV
+E(H)    = -12.55950946 eV
+Binding energy = 2.86389992 eV
+SUCCESS: 80 Ry baseline completed.

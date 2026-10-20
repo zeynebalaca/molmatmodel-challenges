@@ -1,0 +1,162 @@
+================================================================================
+SYSTEM INFORMATION
+================================================================================
+Platform: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43
+Processor: 
+CPU Model: Intel(R) Core(TM) i9-14900HX
+Total CPU cores (logical): 8
+Physical cores: 4
+Threads per core: 2
+CPU Frequency: 2419 MHz
+Total Memory: 7.8 GB
+================================================================================
+
+✓ Found pw.x at: /home/zeyneb/miniforge3/envs/molmatmodel/bin/pw.x (from pw_configure.txt)
+================================================================================
+EXECUTABLE INFORMATION
+================================================================================
+
+📌 pw.x:
+   Full path: /home/zeyneb/miniforge3/envs/molmatmodel/bin/pw.x
+   Exists: Yes
+   Executable: True
+
+   Shared library dependencies (ldd):
+     	linux-vdso.so.1 (0x00007a6579a21000)
+     	libelpa.so.19 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libelpa.so.19 (0x00007a6577600000)
+     	libscalapack.so => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libscalapack.so (0x00007a6576e00000)
+     	libhdf5_fortran.so.310 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libhdf5_fortran.so.310 (0x00007a65799b5000)
+     	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007a657988a000)
+     	libfftw3.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libfftw3.so.3 (0x00007a6576a00000)
+     	libfftw3_omp.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libfftw3_omp.so.3 (0x00007a6579880000)
+     	libmpi_mpifh.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libmpi_mpifh.so.40 (0x00007a657798d000)
+     	libgomp.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgomp.so.1 (0x00007a65774f0000)
+     	libpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x00007a657987b000)
+     	liblapack.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/liblapack.so.3 (0x00007a6574398000)
+     	libgfortran.so.5 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgfortran.so.5 (0x00007a6574000000)
+     	libgcc_s.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libgcc_s.so.1 (0x00007a657795f000)
+     	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007a6573c00000)
+     	/lib64/ld-linux-x86-64.so.2 (0x00007a6579a23000)
+     	libmpi_usempif08.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libmpi_usempif08.so.40 (0x00007a65774ad000)
+     	libmpi_usempi_ignore_tkr.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libmpi_usempi_ignore_tkr.so.40 (0x00007a6579867000)
+     	libmpi.so.40 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libmpi.so.40 (0x00007a6573800000)
+     	libquadmath.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libquadmath.so.0 (0x00007a6577464000)
+     	libhdf5.so.310 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libhdf5.so.310 (0x00007a6573200000)
+     	libucc.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucc.so.1 (0x00007a6576db3000)
+     	libopen-pal.so.80 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libopen-pal.so.80 (0x00007a6576c7b000)
+     	libdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x00007a657985e000)
+     	libfabric.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libfabric.so.1 (0x00007a6573e42000)
+     	libucp.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucp.so.0 (0x00007a65736fd000)
+     	libucs.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucs.so.0 (0x00007a657368d000)
+     	libucm.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libucm.so.0 (0x00007a6577449000)
+     	libuct.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libuct.so.0 (0x00007a6573bc0000)
+     	libnl-route-3.so.200 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libnl-route-3.so.200 (0x00007a6573168000)
+     	libnl-3.so.200 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libnl-3.so.200 (0x00007a6576c56000)
+     	librt.so.1 => /usr/lib/x86_64-linux-gnu/librt.so.1 (0x00007a6579857000)
+     	libutil.so.1 => /usr/lib/x86_64-linux-gnu/libutil.so.1 (0x00007a6579852000)
+     	libevent_core-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libevent_core-2.1.so.7 (0x00007a6573654000)
+     	libevent_pthreads-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libevent_pthreads-2.1.so.7 (0x00007a657795a000)
+     	libhwloc.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libhwloc.so.15 (0x00007a6573108000)
+     	libpmix.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libpmix.so.2 (0x00007a6572e00000)
+     	libcrypto.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libcrypto.so.3 (0x00007a6572600000)
+     	libcurl.so.4 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libcurl.so.4 (0x00007a6572d03000)
+     	libsz.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libsz.so.2 (0x00007a657794c000)
+     	libz.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libz.so.1 (0x00007a657437d000)
+     	librdmacm.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./librdmacm.so.1 (0x00007a6573b9e000)
+     	libefa.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libefa.so.1 (0x00007a657436b000)
+     	libibverbs.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libibverbs.so.1 (0x00007a65730e3000)
+     	libatomic.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libatomic.so.1 (0x00007a657743d000)
+     	libxml2.so.16 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libxml2.so.16 (0x00007a65724ba000)
+     	libnghttp2.so.14 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libnghttp2.so.14 (0x00007a65730b7000)
+     	libssh2.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libssh2.so.1 (0x00007a6573069000)
+     	libpsl.so.5 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libpsl.so.5 (0x00007a6573e2c000)
+     	libssl.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libssl.so.3 (0x00007a65723b7000)
+     	libgssapi_krb5.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libgssapi_krb5.so.2 (0x00007a6572cae000)
+     	libzstd.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libzstd.so.1 (0x00007a657229e000)
+     	libiconv.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libiconv.so.2 (0x00007a657218b000)
+     	libicuuc.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libicuuc.so.78 (0x00007a6571e00000)
+     	libkrb5.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././././libkrb5.so.3 (0x00007a65720b2000)
+     	libk5crypto.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././././libk5crypto.so.3 (0x00007a657363b000)
+     	libcom_err.so.3 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././././libcom_err.so.3 (0x00007a6576c50000)
+     	libkrb5support.so.0 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././././libkrb5support.so.0 (0x00007a657305b000)
+     	libkeyutils.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././././libkeyutils.so.1 (0x00007a6576c49000)
+     	libresolv.so.2 => /usr/lib/x86_64-linux-gnu/libresolv.so.2 (0x00007a6573048000)
+     	libicudata.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libicudata.so.78 (0x00007a656fe00000)
+     	libstdc++.so.6 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libstdc++.so.6 (0x00007a656fa00000)
+
+📌 mpirun/mpiexec:
+   Full path: /home/zeyneb/miniforge3/envs/molmatmodel/bin/mpirun
+   Exists: Yes
+   Executable: True
+
+   Shared library dependencies (ldd):
+     	linux-vdso.so.1 (0x00007babcee22000)
+     	libdl.so.2 => /usr/lib/x86_64-linux-gnu/libdl.so.2 (0x00007babcede7000)
+     	libpthread.so.0 => /usr/lib/x86_64-linux-gnu/libpthread.so.0 (0x00007babcede2000)
+     	libpmix.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/libpmix.so.2 (0x00007babcea00000)
+     	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007babce600000)
+     	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007babcecbc000)
+     	libutil.so.1 => /usr/lib/x86_64-linux-gnu/libutil.so.1 (0x00007babcecb5000)
+     	libevent_core-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libevent_core-2.1.so.7 (0x00007babcec7c000)
+     	libevent_pthreads-2.1.so.7 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libevent_pthreads-2.1.so.7 (0x00007babcec77000)
+     	libhwloc.so.15 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./libhwloc.so.15 (0x00007babce9a0000)
+     	/lib64/ld-linux-x86-64.so.2 (0x00007babcee24000)
+     	libxml2.so.16 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/././libxml2.so.16 (0x00007babce85a000)
+     	libz.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libz.so.1 (0x00007babcec5a000)
+     	libiconv.so.2 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libiconv.so.2 (0x00007babce4ed000)
+     	libicuuc.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libicuuc.so.78 (0x00007babce200000)
+     	libicudata.so.78 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libicudata.so.78 (0x00007babcc200000)
+     	libstdc++.so.6 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libstdc++.so.6 (0x00007babcbe00000)
+     	libgcc_s.so.1 => /home/zeyneb/miniforge3/envs/molmatmodel/bin/../lib/./././libgcc_s.so.1 (0x00007babcec2a000)
+
+================================================================================
+
+
+Setting up Thallium calculation with spin-orbit coupling...
+Created bulk Thallium with 2 atoms
+
+================================================================================
+CPU CORE INFORMATION
+================================================================================
+Physical cores: 4
+Logical cores (with hyper-threading): 8
+================================================================================
+
+================================================================================
+BENCHMARK CONFIGURATION
+================================================================================
+Physical cores: 4
+Logical cores: 8
+Number of benchmarks to run: 1
+MPI values: [8]
+OMP values: [1]
+Combinations: [(8, 1)]
+Note: Some combinations will use --oversubscribe
+================================================================================
+
+📊 Benchmark 1/1
+
+============================================================
+BENCHMARK: MPI=8, OMP=1
+============================================================
+Working directory: /home/zeyneb/challenges/Challenge_I_2/quantum_espresso/python_run/qe_benchmark_mpi8_omp1
+Command: /home/zeyneb/miniforge3/envs/molmatmodel/bin/mpirun --use-hwthread-cpus -np 8 /home/zeyneb/miniforge3/envs/molmatmodel/bin/pw.x -i espresso.pwi
+✅ Benchmark completed: MPI=8, OMP=1
+   Wall Time: 7.24s
+   Efficiency: 0.96x
+
+✓ Results saved to benchmark_results.json
+
+================================================================================
+BENCHMARK SUMMARY
+================================================================================
+   MPI    OMP    Wall Time   Efficiency       Status
+--------------------------------------------------------------------------------
+     8      1         7.24s         0.96x    completed
+================================================================================
+
+🏆 Fastest calculation: MPI=8, OMP=1
+   Wall Time: 7.24s
+   Efficiency: 0.96x
+
+=== BENCHMARK FINISHED ===

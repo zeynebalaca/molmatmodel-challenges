@@ -1,0 +1,58 @@
+&CONTROL
+   calculation      = 'scf'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './tmp'
+   prefix           = 'h_on_c8'
+   pseudo_dir       = '/home/zeyneb/challenges/Challenge_II_8/H_on_C8'
+/
+&SYSTEM
+   ibrav            = 0
+   ecutwfc          = 80
+   ecutrho          = 640
+   occupations      = 'smearing'
+   degauss          = 0.01
+   smearing         = 'gauss'
+   nspin            = 2
+   vdw_corr         = 'DFT-D3'
+   dftd3_version    = 4
+   starting_magnetization(1) = 0.0
+   starting_magnetization(2) = 0.0
+   ntyp             = 2
+   nat              = 9
+/
+&ELECTRONS
+   conv_thr         = 1e-09
+   mixing_beta      = 0.5
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+C  12.011 C.upf
+H  1.008 H.upf
+
+K_POINTS automatic
+1 1 1  0 0 0
+
+CELL_PARAMETERS angstrom
+4.93264818190000 0.00000000000000 0.00000000000000
+-2.46632465980000 4.27179830510000 0.00000000000000
+0.00000000000000 0.00000000000000 15.00000000000000
+
+ATOMIC_POSITIONS angstrom
+C  -0.0159211811 0.0091920932 7.3775235315  
+C  -1.2331623300 2.1175149347 7.3775235315  
+C  2.4822452721 0.0091920797 7.3775235315  
+C  1.2331617610 2.1358991530 7.8381972101  
+C  -0.0323648855 1.4052469067 7.4194767835  
+C  -1.2331625190 3.5598318360 7.5309454437  
+C  2.4986884495 1.4052469234 7.4194767835  
+C  1.2331614240 3.5972033576 7.4194767835  
+H  1.2331617610 2.1358991530 8.9398564568  
+

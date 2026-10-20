@@ -1,0 +1,38 @@
+&CONTROL
+ calculation = 'relax',
+ prefix = 'CH4',
+ pseudo_dir = './',
+ outdir = './tmp',
+ verbosity = 'high',
+ tprnfor = .true.,
+/
+&SYSTEM
+ ibrav = 1,
+ celldm(1) = 28.3459,
+ nat = 5,
+ ntyp = 2,
+ ecutwfc = 50,
+ ecutrho = 400,
+ occupations = 'fixed',
+ input_dft = 'PBE',
+ nosym = .true.,
+/
+&ELECTRONS
+ conv_thr = 1.0d-8,
+ mixing_beta = 0.3,
+/
+&IONS
+ ion_dynamics = 'bfgs',
+/
+ATOMIC_SPECIES
+ C 12.011 C.upf
+ H 1.008 H.upf
+
+ATOMIC_POSITIONS angstrom
+ C  7.5000  7.5000  7.5000
+ H  8.1293  8.1293  8.1293
+ H  6.8707  6.8707  8.1293
+ H  6.8707  8.1293  6.8707
+ H  8.1293  6.8707  6.8707
+
+K_POINTS gamma
